@@ -14,10 +14,9 @@ const SecaoFluida = styled.section`
 const Galeria = () => {
     return (
         <>
-        <Tags />
-            
             <GaleriaContainer>
                 <SecaoFluida>
+                    <Tags />
                     <Titulo>Navegue pela galeria</Titulo>
                 </SecaoFluida>
                 <Populares>
