@@ -57,7 +57,10 @@ const App = () => {
           </ConteudoGaleria>
         </MainContainer>
       </AppContainer>
-      <ModalZoom foto={fotoSelecionada}/>
+      <ModalZoom 
+        aoFechar={() => setFotoSelecionada(null)}
+        foto={fotoSelecionada}
+      />
     </FundoGradiente>
   )
 }
